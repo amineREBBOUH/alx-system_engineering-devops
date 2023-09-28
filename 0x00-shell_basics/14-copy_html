@@ -1,0 +1,4 @@
+#!/bin/bash
+source_dir=$(pwd)
+destination_dir=$(dirname $source_dir)
+cp -u "$source_dir"/*.html "$destination_dir"
